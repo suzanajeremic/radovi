@@ -1,0 +1,69 @@
+
+html, body {
+overflow-x: hidden;
+
+}
+.prviDeo{
+   
+    height: 300px;
+ 
+}
+.naslov{
+    padding-top: 20px;
+}
+h3, h6{
+text-align: center;
+font-family: monospace;
+cursor: pointer;
+}
+h3{
+    color: #0e2150;
+}
+h6{
+color: #3b4b7d;
+
+
+}
+a, h3:hover{
+    text-decoration: none !important;
+    color: white;
+}
+a, h6:hover{
+    color: white;
+    text-decoration: none !important;
+    
+}
+img{
+     max-width:100%;
+}
+
+.gallery_box div a{ 
+    width: 60%; 
+
+    text-align: center; 
+    overflow: hidden;    
+   
+}
+
+.gallery_box{ 
+    padding:0;
+   
+}
+
+.gallery_box a:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box a  img{
+    -webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+
+.gallery_box div:hover .box_data{ 
+    background:rgba(255, 255, 255, 0.55)
+}
